@@ -6,7 +6,10 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require foundation
 //= require jquery-ui-1.8.16.custom.min
 //= require rails.validations
 //= require_tree .
 
+
+$(function(){ $(document).foundation(); });
